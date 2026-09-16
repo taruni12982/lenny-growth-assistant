@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Lenny Growth Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div class="brand-row">
+          <span class="brand-mark" aria-hidden="true">LG</span>
+          <p class="eyebrow">PRODUCT GROWTH DEMO</p>
+        </div>
+        <h1>The Lenny Growth Assistant</h1>
+        <p class="subtitle">Practical product-growth guidance, grounded in the demo passages shown below each answer.</p>
+        <aside class="disclaimer" aria-label="Demo dataset disclaimer">
+          <strong>Fictional demo data.</strong> The current dataset contains original sample growth content. It is not real Lenny Podcast transcript material.
+        </aside>
+      </header>
+      <section id="chat" class="chat" aria-live="polite" aria-label="Conversation">
+        <article class="message assistant">
+          <p class="message-label">Growth assistant</p>
+          <p>Ask a question to search the fictional demo collection and get a practical answer with sources.</p>
+        </article>
+      </section>
+      <form id="chat-form" class="chat-form">
+        <label for="question">Your growth question</label>
+        <div class="input-row">
+          <textarea id="question" name="question" rows="2" placeholder="Example: How can I improve activation for new users?" required></textarea>
+          <button id="send-button" type="submit"><span>Ask</span><span aria-hidden="true">&#8599;</span></button>
+        </div>
+        <div class="suggestions" aria-label="Example questions">
+          <button type="button" class="suggestion">Improve activation</button>
+          <button type="button" class="suggestion">Run a pricing test</button>
+          <button type="button" class="suggestion">Build a growth loop</button>
+        </div>
+        <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f4f7fc; }
+* { box-sizing: border-box; }
+body { background: radial-gradient(circle at 88% 0%, #ddd8ff 0, transparent 28rem), #f4f7fc; margin: 0; min-height: 100vh; }
+.app-shell { margin: 0 auto; padding: 48px 0 56px; width: min(880px, calc(100% - 32px)); }
+.hero { margin-bottom: 26px; }
+.brand-row { align-items: center; display: flex; gap: 10px; }
+.brand-mark { align-items: center; background: #25204c; border-radius: 9px; color: #fff; display: inline-flex; font-size: .72rem; font-weight: 800; height: 30px; justify-content: center; letter-spacing: .04em; width: 30px; }
+.eyebrow { color: #5f5a9d; font-size: .72rem; font-weight: 800; letter-spacing: .13em; margin: 0; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); letter-spacing: -.06em; line-height: 1; margin: 18px 0 12px; }
+.subtitle { color: #526078; font-size: 1.05rem; line-height: 1.55; margin: 0; max-width: 640px; }
+.disclaimer { background: #fff8e8; border: 1px solid #f1d594; border-radius: 10px; color: #6d5319; font-size: .9rem; line-height: 1.45; margin-top: 18px; padding: 12px 14px; }
+.chat { display: grid; gap: 16px; margin-bottom: 20px; min-height: 280px; }
+.message { border-radius: 16px; max-width: 88%; padding: 15px 18px; }
+.message p { line-height: 1.58; margin: 0; white-space: pre-wrap; }
+.message-label { font-size: .73rem; font-weight: 800; letter-spacing: .06em; margin-bottom: 7px !important; text-transform: uppercase; }
+.assistant { background: #fff; border: 1px solid #e4e8f1; box-shadow: 0 6px 20px #1720330d; justify-self: start; }
+.user { background: #262054; box-shadow: 0 6px 20px #26205422; color: #fff; justify-self: end; }
+.error { background: #fff0f0; border: 1px solid #ffc7c7; color: #982b2b; }
+.loading { align-items: center; color: #596174; display: flex; gap: 9px; font-size: .92rem; }
+.loading::before { animation: pulse 1s infinite ease-in-out; background: #6c63ff; border-radius: 50%; content: ""; height: 8px; width: 8px; }
+@keyframes pulse { 50% { opacity: .25; transform: scale(.7); } }
+.sources { border-left: 2px solid #d9d5ff; display: grid; gap: 10px; margin: -4px 0 6px 12px; padding-left: 14px; }
+.sources-label { color: #605a9e; font-size: .74rem; font-weight: 800; letter-spacing: .09em; margin: 0 0 1px; text-transform: uppercase; }
+.source { background: #f7f6ff; border: 1px solid #dfddff; border-radius: 12px; color: #30305b; padding: 13px; }
+.source h3 { font-size: .91rem; line-height: 1.35; margin: 0 0 7px; }
+.source p { color: #4c4b71; font-size: .86rem; line-height: 1.5; margin: 8px 0; }
+.source small { color: #69678c; display: block; font-size: .76rem; line-height: 1.4; }
+.chat-form { background: #fff; border: 1px solid #e4e8f1; border-radius: 16px; box-shadow: 0 10px 30px #17203310; padding: 18px; }
+label { display: block; font-size: .91rem; font-weight: 750; margin-bottom: 9px; }
+.input-row { display: flex; gap: 10px; }
+textarea { border: 1px solid #cbd2e2; border-radius: 10px; color: #172033; font: inherit; line-height: 1.45; min-height: 54px; padding: 12px; resize: vertical; width: 100%; }
+textarea:focus { border-color: #6c63ff; box-shadow: 0 0 0 3px #6c63ff20; outline: 0; }
+#send-button { align-items: center; background: #6c63ff; border: 0; border-radius: 10px; color: #fff; cursor: pointer; display: flex; font: inherit; font-weight: 750; gap: 7px; justify-content: center; min-width: 96px; padding: 0 18px; }
+#send-button:hover:not(:disabled) { background: #574ee8; }
+#send-button:disabled { cursor: wait; opacity: .7; }
+.suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.suggestion { background: #f3f2ff; border: 1px solid #dedbff; border-radius: 999px; color: #504a91; cursor: pointer; font: inherit; font-size: .8rem; padding: 6px 10px; }
+.suggestion:hover { background: #e8e6ff; }
+.status-message { color: #5d667a; font-size: .82rem; margin: 10px 0 0; min-height: 1.2em; }
+@media (max-width: 550px) { .app-shell { padding-top: 28px; } .input-row { flex-direction: column; } #send-button { min-height: 46px; } .message { max-width: 100%; } h1 { font-size: 2.25rem; } }

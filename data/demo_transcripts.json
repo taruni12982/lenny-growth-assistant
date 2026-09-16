@@ -1,0 +1,45 @@
+[
+  {
+    "id": "demo-activation-001",
+    "title": "Demo Growth Conversation: Finding the First Aha Moment",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. A useful activation metric is the first moment when a new user receives the product's core value. For a team workspace, that might be inviting a teammate and getting a reply. Start by interviewing recently activated users and compare their first session with users who left. Improve one confusing step at a time and measure whether the activation rate changes.",
+    "topics": ["activation", "onboarding", "aha moment", "retention"]
+  },
+  {
+    "id": "demo-retention-002",
+    "title": "Demo Growth Conversation: Retention Before Acquisition",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. Do not scale paid acquisition until you understand early retention. Create a weekly retention chart by signup cohort. If users return because they complete a recurring job, make that recurring job easier to begin and easier to remember. A small improvement in week-four retention often makes every acquisition channel more valuable.",
+    "topics": ["retention", "cohorts", "acquisition", "metrics"]
+  },
+  {
+    "id": "demo-pricing-003",
+    "title": "Demo Growth Conversation: A Practical Pricing Test",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. Pricing research starts with customer conversations, not a random price change. Ask customers what alternative they would use without your product and what that alternative costs them in time or money. Test a packaging hypothesis on a new-user segment, state the value clearly, and track conversion, refunds, and support questions before rolling it out broadly.",
+    "topics": ["pricing", "packaging", "conversion", "customer research"]
+  },
+  {
+    "id": "demo-growth-loops-004",
+    "title": "Demo Growth Conversation: Designing a Growth Loop",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. A growth loop has an input, an action that creates value, and an output that brings in another input. For example, a user creates a useful public template, another person discovers it, and that person signs up to adapt it. Instrument each step of the loop. If the output is weak, first improve the value created for the existing user rather than only adding promotion.",
+    "topics": ["growth loops", "virality", "product led growth", "instrumentation"]
+  },
+  {
+    "id": "demo-experiments-005",
+    "title": "Demo Growth Conversation: Running Better Experiments",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. Write an experiment as a clear prediction: for this audience, changing this experience will improve this metric because of this reason. Choose one primary metric and a guardrail metric, decide the sample size in advance, and document the result even when it fails. Failed experiments become useful when they teach you which customer assumption was wrong.",
+    "topics": ["experimentation", "a/b testing", "metrics", "hypothesis"]
+  },
+  {
+    "id": "demo-user-research-006",
+    "title": "Demo Growth Conversation: Learning from User Research",
+    "speaker": "Fictional product-growth guest",
+    "excerpt": "This is fictional sample content created for The Lenny Growth Assistant demo; it is not a Lenny Podcast transcript. Recruit interview participants from a specific behavior, such as people who started a trial but did not finish setup. Ask them to describe what they were trying to accomplish before asking about your product. Listen for repeated language about problems and tradeoffs; that language can improve onboarding messages, landing pages, and product decisions.",
+    "topics": ["user research", "interviews", "onboarding", "messaging"]
+  }
+]
+
